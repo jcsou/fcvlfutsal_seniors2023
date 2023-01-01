@@ -50,8 +50,8 @@
       "nom": "Demi-Finale 1",
       "code": "Demi-1",
       "niveau": "2",
-      "equipeDom": {"id": "","but": "1"},
-      "equipeExt": {"id": "","but": "2"}
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
     },
     {
       "id": 48,
