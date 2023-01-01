@@ -6,7 +6,7 @@
                   <v-img class="mx-auto" max-height="200px" max-width="200px" src="../assets/logo.png" alt="FCVL logo"/>
                   <v-card-text class="text-center pa-1">
                     <h3 class="display-2 font-weight-light mb-3 black--text">
-                      Tournoi en salle Féminin
+                      Tournoi en salle Séniors G
                     </h3>
                     <p class="font-weight-light grey--text">Samedi Soir 07/01/2023 : Rdv 19h15, Début 20h</p>
                     <p class="font-weight-light grey--text">2 Groupes de Poules : <a @click="scrollMeTo('PoulesABC')" >Poules A B C</a> et <a @click="scrollMeTo('PoulesDEF')" >Poules D E F</a> </p>
@@ -48,11 +48,12 @@
                 <v-dialog v-model="dialogQRcode" max-width="500">
                   <v-card class="pa-1">
                     <v-card-title class="text-h5 pa-1">
-                        <h3 class="display-2 font-weight-light mb-3 black--text">Partager ce site avec ce QRCode ...</h3>
-                        <h6 class="display-2 black--text">https://fcvalduloir.pagesperso-orange.fr/TES2023Fem/dist/</h6>
+                        <h3 class="display-2 font-weight-light mb-3 black--text">TournoiEnSalle FCVL 2023 Senior</h3>
+                        <h6 class="display-1 black--text">Partager ce site avec ce QRCode ...</h6>
+                        <h6 class="display-1 black--text">https://fcvalduloir.pagesperso-orange.fr/TES2023Seniors/dist/</h6>
                     </v-card-title>
                     <v-card-text class="pa-1">
-                      <v-img class="mx-auto" max-height="450px" max-width="450px" src="img/QRsite.png" alt="QRsite"/>
+                      <v-img class="mx-auto" max-height="500px" max-width="450px" src="img/QRsite.png" alt="QRsite"/>
                     </v-card-text>
                     <v-card-actions class="pa-1 ">
                       <v-spacer></v-spacer>

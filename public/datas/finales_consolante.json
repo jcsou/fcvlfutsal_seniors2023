@@ -1,0 +1,83 @@
+{
+  "lesmatchs": [
+
+    {
+      "id": 38,
+      "salle": "2-CCVL",
+      "heureDebut": "22:30",
+      "nom": "1er Quart",
+      "code": "Quart-1",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 40,
+      "salle": "2-CCVL",
+      "heureDebut": "22:37",
+      "nom": "2ie Quart",
+      "code": "Quart-2",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 42,
+      "salle": "2-CCVL",
+      "heureDebut": "22:44",
+      "nom": "3ie Quart",
+      "code": "Quart-3",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 44,
+      "salle": "2-CCVL",
+      "heureDebut": "22:51",
+      "nom": "4ie Quart",
+      "code": "Quart-4",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+
+
+    {
+      "id": 46,
+      "salle": "2-CCVL",
+      "heureDebut": "23:00",
+      "nom": "Demi-Finale 1",
+      "code": "Demi-1",
+      "niveau": "2",
+      "equipeDom": {"id": "","but": "1"},
+      "equipeExt": {"id": "","but": "2"}
+    },
+    {
+      "id": 48,
+      "salle": "2-CCVL",
+      "heureDebut": "23:07",
+      "nom": "Demi-Finale 2",
+      "code": "Demi-2",
+      "niveau": "2",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+
+    {
+      "id": 65,
+      "salle": "1-GLC",
+      "heureDebut": "00:10",
+      "nom": "FINALE consolante",
+      "code": "finale",
+      "niveau": "3",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    }
+
+  ],
+  "leclassement": [
+    { "rang":"1", "equipe": ""},
+    { "rang":"2", "equipe": ""}
+  ]
+}

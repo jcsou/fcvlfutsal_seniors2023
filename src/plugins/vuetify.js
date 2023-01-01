@@ -13,7 +13,7 @@ const theme = {
   colorPA: '#A9CCE3',
   colorPB: '#A2D9CE',
   colorPC: '#D2B4DE',
-  colorPD: '#FAD7A0',
+  colorPD: '#F1AF00',
   colorPE: '#F1948A',
   colorPF: '#CACFD2',
 }

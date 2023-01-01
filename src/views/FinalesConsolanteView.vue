@@ -1,52 +1,14 @@
 <template>
     <v-container id="SenFPhaseFinale" fluid tag="section">
     <v-row>
-      <v-col class="col-md-4">
-        <!-- 1er Match eliminatoire -->
-        <base-material-card color="primary" class="px-0">
-          <template v-slot:heading>
-            <div class="display-2 font-weight-light">1er Match Eliminatoire - 8ième de finales </div>
-            <div class="display-2 font-weight-light">1er et 2nd de Poules + 4 Meilleurs 3 ième  </div>
-          </template>
-          <v-card-text class="px-0" >
-            <v-data-table :headers="headersMatch" :items="lesmatchsNiv1" hide-default-footer class="px-0" mobile-breakpoint="350">
-              <template v-slot:[`item.id`]="{ item }">
-                <h6 class="display-1 mb-1 black--text">{{ item.id}}</h6>
-                <h6 class="display-1 mb-1 grey--text">{{ item.salle}}</h6>
-                <h6 class="display-1 mb-1 grey--text">{{ item.heureDebut}}</h6>
-              </template>
-                <template v-slot:[`item.nom`]="{ item }">
-                <h6 class="display-1 mb-1 black--text">{{ item.nom}}</h6>
-                <h6 class="display-1 mb-1 grey--text">{{ item.code}}</h6>
-              </template>
-              <template v-slot:[`item.displayDom.fanion`]="{ item }">
-                    <v-avatar>
-                      <v-img v-bind:src="'img/fanion/'+item.displayDom.fanion" :alt="item.displayDom.nomCourt" max-height="25" max-width="25"/>
-                    </v-avatar>
-                    <h6 class="display-1 mb-1 grey--text">{{ item.displayDom.nomCourt }}</h6>
-              </template>
-              <template v-slot:[`item.score`]="{ item }">
-                <v-chip color="grey" ><h6 class="display-1 mb-1 font-weight-bold">{{ item.score }}</h6></v-chip>
-              </template>
-              <template v-slot:[`item.displayExt.fanion`]="{ item }">
-                    <v-avatar>
-                      <v-img v-bind:src="'img/fanion/'+item.displayExt.fanion" :alt="item.displayExt.nomCourt" max-height="25" max-width="25"/>
-                    </v-avatar>
-                    <h6 class="display-1 mb-1 grey--text">{{ item.displayExt.nomCourt }}</h6>
-              </template>
-            </v-data-table>
-          </v-card-text>
-        </base-material-card>
-      </v-col>
 
       <v-col class="col-md-4">
-        <base-material-card color="primary" class="px-0">
+        <base-material-card color="secondary" class="px-0">
             <template v-slot:heading>
-                <div class="display-2 font-weight-light">2ième Match Eliminatoire - 4ième de final </div>
-
+                <div class="display-2 font-weight-light">Consolante : 1er Match Eliminatoire - 1/4 de final </div>
             </template>
             <v-card-text class="px-0" >
-                <v-data-table :headers="headersMatch" :items="lesmatchsNiv2" hide-default-footer class="px-0" mobile-breakpoint="350">
+                <v-data-table :headers="headersMatch" :items="lesmatchsNiv1" hide-default-footer class="px-0" mobile-breakpoint="350">
                     <template v-slot:[`item.id`]="{ item }">
                         <h6 class="display-1 mb-1 black--text">{{ item.id}}</h6>
                         <h6 class="display-1 mb-1 grey--text">{{ item.salle}}</h6>
@@ -75,14 +37,15 @@
             </v-card-text>
         </base-material-card>
 
+      </v-col>
+      <v-col class="col-md-4">
 
-
-      <base-material-card color="primary" class="px-0">
+      <base-material-card color="secondary" class="px-0">
           <template v-slot:heading>
-              <div class="display-2 font-weight-light">Demi-Finales</div>
+              <div class="display-2 font-weight-light">Consolante : Demi-Finales</div>
           </template>
           <v-card-text class="px-0" >
-            <v-data-table :headers="headersMatch" :items="lesmatchsNiv3" hide-default-footer class="px-0" mobile-breakpoint="350">
+            <v-data-table :headers="headersMatch" :items="lesmatchsNiv2" hide-default-footer class="px-0" mobile-breakpoint="350">
               <template v-slot:[`item.id`]="{ item }">
                   <h6 class="display-1 mb-1 black--text">{{ item.id}}</h6>
                   <h6 class="display-1 mb-1 grey--text">{{ item.salle}}</h6>
@@ -114,12 +77,12 @@
     </v-col>
     <v-col class="col-md-4">
 
-      <base-material-card color="primary" class="px-0">
+      <base-material-card color="secondary" class="px-0">
         <template v-slot:heading>
-            <div class="display-2 font-weight-light">Petite-Finale et FINALE</div>
+            <div class="display-2 font-weight-light">Consolante : FINALE</div>
         </template>
         <v-card-text class="px-0" >
-            <v-data-table :headers="headersMatch" :items="lesmatchsNiv4" hide-default-footer class="px-0" mobile-breakpoint="350">
+            <v-data-table :headers="headersMatch" :items="lesmatchsNiv3" hide-default-footer class="px-0" mobile-breakpoint="350">
             <template v-slot:[`item.id`]="{ item }">
                 <h6 class="display-1 mb-1 black--text">{{ item.id}}</h6>
                 <h6 class="display-1 mb-1 grey--text">{{ item.salle}}</h6>
@@ -147,9 +110,7 @@
             </v-data-table>
         </v-card-text>
       </base-material-card>
-
-
-        <base-material-card color="primary" class="px-0"  >
+        <base-material-card color="secondary" class="px-0"  >
           <template v-slot:heading>
               <div class="display-2 font-weight-light">Classement Final</div>
           </template>
@@ -182,12 +143,11 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        urlFinales: process.env.BASE_URL + "datas/finales_general.json",
+        urlFinales: process.env.BASE_URL + "datas/finales_consolante.json",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
         lesmatchsNiv1: [],
         lesmatchsNiv2: [],
         lesmatchsNiv3: [],
-        lesmatchsNiv4: [],
         leclassement: [],
         lesequipeskey: {},
         headersMatch: [
@@ -281,7 +241,6 @@ export default {
                   this.lesmatchsNiv1 = response.data.lesmatchs.filter(function (entry){return entry.niveau==='1';})
                   this.lesmatchsNiv2 = response.data.lesmatchs.filter(function (entry){return entry.niveau==='2';})
                   this.lesmatchsNiv3 = response.data.lesmatchs.filter(function (entry){return entry.niveau==='3';})
-                  this.lesmatchsNiv4 = response.data.lesmatchs.filter(function (entry){return entry.niveau==='4';})
                   this.leclassement = response.data.leclassement
 
                   var blancEquipe = {"categorie_id": "","id": "","nom": "","nomCourt": "","fanion": ""}
@@ -336,21 +295,8 @@ export default {
                     }
                   }
 
-                  for (var z in this.lesmatchsNiv4 ) {
-                    this.lesmatchsNiv4[z].score = this.lesmatchsNiv4[z].equipeDom.but+" - "+this.lesmatchsNiv4[z].equipeExt.but
-                    if (this.lesmatchsNiv4[z].equipeDom.id)
-                        this.lesmatchsNiv4[z].displayDom = this.lesequipeskey[this.lesmatchsNiv4[z].equipeDom.id]
-                    else {
-                        this.lesmatchsNiv4[z].displayDom =  blancEquipe
-                    }
-                    if (this.lesmatchsNiv4[z].equipeExt.id)
-                        this.lesmatchsNiv4[z].displayExt = this.lesequipeskey[this.lesmatchsNiv4[z].equipeExt.id]
-                    else {
-                        this.lesmatchsNiv4[z].displayExt =  blancEquipe
-                    }
-                  }
-
-                  // console.log(this.lesmatchsNiv1)
+                  console.log(this.lesmatchsNiv2)
+                  console.log(this.lesmatchsNiv3)
                 }).catch(error => {
                    console.log(error)
                 })

@@ -105,9 +105,106 @@
       "nom": "Arabie Saoudite",
       "nomCourt": "A.Saoudite-E12",
       "fanion": "arabiesaoudite.png"
+    },
+
+    {
+      "categorie_id": "c2",
+      "id": "E13",
+      "poule": "D",
+      "nom": "France",
+      "nomCourt": "France-E13",
+      "fanion": "france.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E14",
+      "poule": "D",
+      "nom": "Australie",
+      "nomCourt": "Australie-E14",
+      "fanion": "australie.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E15",
+      "poule": "D",
+      "nom": "Tunisie",
+      "nomCourt": "Tunisie-E15",
+      "fanion": "tunisie.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E16",
+      "poule": "D",
+      "nom": "Danemark",
+      "nomCourt": "Danemark-E16",
+      "fanion": "danemark.png"
+    },
+
+    {
+      "categorie_id": "c2",
+      "id": "E17",
+      "poule": "E",
+      "nom": "Japon",
+      "nomCourt": "Japon-E17",
+      "fanion": "japon.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E18",
+      "poule": "E",
+      "nom": "Espagne",
+      "nomCourt": "Espagne-E18",
+      "fanion": "espagne.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E19",
+      "poule": "E",
+      "nom": "Allemagne",
+      "nomCourt": "Allemagne-E19",
+      "fanion": "allemagne.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E20",
+      "poule": "E",
+      "nom": "Costa Rica",
+      "nomCourt": "CostaRica-E20",
+      "fanion": "danemark.png"
+    },
+
+    {
+      "categorie_id": "c2",
+      "id": "E21",
+      "poule": "F",
+      "nom": "Maroc",
+      "nomCourt": "Maroc-E21",
+      "fanion": "maroc.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E22",
+      "poule": "F",
+      "nom": "Croatie",
+      "nomCourt": "Croatie-E22",
+      "fanion": "croatie.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E23",
+      "poule": "F",
+      "nom": "Belgique",
+      "nomCourt": "Belgique-E23",
+      "fanion": "belgique.png"
+    },
+    {
+      "categorie_id": "c2",
+      "id": "E24",
+      "poule": "F",
+      "nom": "Canada",
+      "nomCourt": "Canada-E24",
+      "fanion": "canada.png"
     }
-
-
   ],
   "lessalles": [
     {

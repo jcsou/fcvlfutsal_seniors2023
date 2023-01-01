@@ -73,8 +73,11 @@
       items: [
         { title: 'Accueil', icon: 'mdi-view-dashboard', to: '/' },
         { title: 'Poules ABC', icon: 'mdi-view-split-vertical', to: '/PoulesABC' },
+        { title: 'Poules DEF', icon: 'mdi-view-split-vertical', to: '/PoulesDEF' },
         { title: 'Finales Géné.', icon: 'mdi-format-line-weight', to: '/FinalesGeneral' },
+        { title: 'Finales Consol.', icon: 'mdi-format-line-weight', to: '/FinalesConsolante' },
         { title: 'TL Poules', icon: 'mdi-timeline-clock-outline', to: '/TimelinePoules' },
+        { title: 'TL Finales', icon: 'mdi-timeline-clock-outline', to: '/TimelineFinales' },
       ],
     }),
 
