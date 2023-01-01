@@ -1,0 +1,177 @@
+{
+  "lesmatchs": [
+    {
+      "id": 37,
+      "salle": "1-GLC",
+      "heureDebut": "22:30",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-1",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 39,
+      "salle": "1-GLC",
+      "heureDebut": "22:37",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-2",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 41,
+      "salle": "1-GLC",
+      "heureDebut": "22:44",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-3",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 43,
+      "salle": "1-GLC",
+      "heureDebut": "22:53",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-4",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 45,
+      "salle": "1-GLC",
+      "heureDebut": "22:44",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-5",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 47,
+      "salle": "1-GLC",
+      "heureDebut": "22:53",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-6",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 49,
+      "salle": "1-GLC",
+      "heureDebut": "23:00",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-7",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 51,
+      "salle": "1-GLC",
+      "heureDebut": "23:07",
+      "nom": "1er Py vs 2-3ième Px",
+      "code": "Huit-8",
+      "niveau": "1",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+
+
+    {
+      "id": 53,
+      "salle": "1-GLC",
+      "heureDebut": "23:14",
+      "nom": "Gagants Huit-1/Huit 2",
+      "code": "Quart-1",
+      "niveau": "2",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 55,
+      "salle": "1-GLC",
+      "heureDebut": "23:21",
+      "nom": "Gagants Huit-3/Huit 4",
+      "code": "Quart-2",
+      "niveau": "2",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 57,
+      "salle": "1-GLC",
+      "heureDebut": "23:28",
+      "nom": "Gagants Huit-5/Huit 6",
+      "code": "Quart-3",
+      "niveau": "2",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 59,
+      "salle": "1-GLC",
+      "heureDebut": "23:35",
+      "nom": "Gagants Huit-7/Huit 8",
+      "code": "Quart-4",
+      "niveau": "2",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+
+
+    {
+      "id": 61,
+      "salle": "1-GLC",
+      "heureDebut": "23:45",
+      "nom": "Demi-Finale 1",
+      "code": "Demi-1",
+      "niveau": "3",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 63,
+      "salle": "1-GLC",
+      "heureDebut": "23:52",
+      "nom": "Demi-Finale 2",
+      "code": "Demi-2",
+      "niveau": "3",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+
+
+    {
+      "id": 67,
+      "salle": "1-GLC",
+      "heureDebut": "00:10",
+      "nom": "Place 3-4",
+      "code": "petite-finale",
+      "niveau": "4",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    },
+    {
+      "id": 69,
+      "salle": "1-GLC",
+      "heureDebut": "00:20",
+      "nom": "FINALE",
+      "code": "finale (8 minutes)",
+      "niveau": "4",
+      "equipeDom": {"id": "","but": ""},
+      "equipeExt": {"id": "","but": ""}
+    }
+
+  ],
+  "leclassement": [
+    { "rang":"1", "equipe": ""},
+    { "rang":"2", "equipe": ""},
+    { "rang":"3", "equipe": ""},
+    { "rang":"4", "equipe": ""}
+  ]
+}

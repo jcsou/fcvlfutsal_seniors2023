@@ -1,0 +1,124 @@
+{
+  "lescategories": [
+    {
+      "id": "c1",
+      "nom": "Seniors",
+      "nomlong": "Seniors G"
+    }
+  ],
+  "lesequipes": [
+    {
+      "categorie_id": "c1",
+      "id": "E1",
+      "poule": "A",
+      "nom": "Pays-Bas",
+      "nomCourt": "PaysBas-E1",
+      "fanion": "paysbas.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E2",
+      "poule": "A",
+      "nom": "Sénégal",
+      "nomCourt": "Sénégal-E2",
+      "fanion": "senegal.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E3",
+      "poule": "A",
+      "nom": "Equateur",
+      "nomCourt": "Equateur-E3",
+      "fanion": "equateur.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E4",
+      "poule": "A",
+      "nom": "Qatar",
+      "nomCourt": "Qatar-E4",
+      "fanion": "qatar.png"
+    },
+
+
+    {
+      "categorie_id": "c1",
+      "id": "E5",
+      "poule": "B",
+      "nom": "Angleterre",
+      "nomCourt": "Angleterre-E5",
+      "fanion": "angleterre.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E6",
+      "poule": "B",
+      "nom": "Etats-Unis",
+      "nomCourt": "USA-E6",
+      "fanion": "etatsunis.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E7",
+      "poule": "B",
+      "nom": "Iran",
+      "nomCourt": "Iran-E7",
+      "fanion": "iran.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E8",
+      "poule": "B",
+      "nom": "Pays de Galles",
+      "nomCourt": "Galles-E8",
+      "fanion": "paysdegalles.png"
+    },
+
+    {
+      "categorie_id": "c1",
+      "id": "E9",
+      "poule": "C",
+      "nom": "Argentine",
+      "nomCourt": "Argentine-E9",
+      "fanion": "argentine.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E10",
+      "poule": "C",
+      "nom": "Pologne",
+      "nomCourt": "Pologne-E10",
+      "fanion": "pologne.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E11",
+      "poule": "C",
+      "nom": "Mexique",
+      "nomCourt": "Mexique-E11",
+      "fanion": "mexique.png"
+    },
+    {
+      "categorie_id": "c1",
+      "id": "E12",
+      "poule": "C",
+      "nom": "Arabie Saoudite",
+      "nomCourt": "A.Saoudite-E12",
+      "fanion": "arabiesaoudite.png"
+    }
+
+
+  ],
+  "lessalles": [
+    {
+      "id": "2-CCVL",
+      "nom":"CCVL",
+      "nomlong": "Gymnase Val Du Loir"
+    },
+    {
+      "id": "1-GLC",
+      "nom": "GLCroix",
+      "nomlong": "Gymnase GuyLaCroix"
+    }
+  ]
+}
